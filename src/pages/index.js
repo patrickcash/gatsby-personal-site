@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Header from '../components/Header';
 import Masthead from '../components/Masthead';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
 import Resume from '../components/Resume';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <Header />
     <Masthead />
-    <Portfolio />
+    <Projects />
     <Resume />
     <Contact />
     <Footer />

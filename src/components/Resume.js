@@ -5,99 +5,134 @@ export default function Resume() {
     <section id="resume" className="resume-section bg-light">
       <div className="row justify-content-md-center">
         <div className="col-md-2 mb-4 mb-md-0 justify-content-md-center">
-          <h1>
-            <span>Work</span>
-          </h1>
+          <h2>Experience</h2>
         </div>
 
         <div className="col-md-6 mb-3 mb-md-0">
           <div className="row item">
-            <div className="col-md-12 mb-3 mb-md-0">
-              <h3>Awesome Design Studio</h3>
-              <p className="info">
-                Senior UX Designer
-                <span>&bull;</span>
-                <em className="date">March 2010 - Present</em>
-              </p>
-
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                Freelance\Contract Software Developer
+                <small className="text-muted float-md-right">Present</small>
+              </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                felis eu pede mollis pretium.
+                Frontend focused full stack development using React\Redux for
+                user interface functionality and Django or Express for backend
+                APIs
               </p>
             </div>
           </div>
 
-          <div className="row item">
-            <div className="col-md-12 mb-3 mb-md-0">
-              <h3>Super Cool Studio</h3>
-              <p className="info">
-                UX Designer
-                <span>&bull;</span>
-                <em className="date">March 2007 - February 2010</em>
-              </p>
+          <br />
 
+          <div className="row item">
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                Research Assistant: NC State University
+                <small className="text-muted float-md-right">
+                  Feb 2014 - Jan 2015
+                </small>
+              </h4>
               <p>
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
-                tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                Technical lead for SimSelf Intelligent Tutor. A tutoring system
+                for middle school students using an agent based question and
+                answering system
+              </p>
+            </div>
+          </div>
+
+          <br />
+
+          <div className="row item">
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                Software Engineer: SAS Institute
+                <small className="text-muted float-md-right">
+                  May 2006 - Feb 2014
+                </small>
+              </h4>
+              <p>
+                Worked on a team developing common user interface components and
+                frameworks used by applications throughout the company.
+                Independently develop web-based components as well as worked in
+                small teams on larger frameworks.
+              </p>
+            </div>
+          </div>
+
+          <br />
+
+          <div className="row item">
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                Software Engineer: I-Cubed
+                <small className="text-muted float-md-right">
+                  May 2005 - May 2006
+                </small>
+              </h4>
+              <p>
+                Supported a bulk migration tool for CAD files to move customer
+                data from existing storage systems to new version control
+                system. Worked directly with customers to develop custom data
+                processing scripts.
+              </p>
+            </div>
+          </div>
+
+          <br />
+
+          <div className="row item">
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                Teaching Assistant: NC State University
+                <small className="text-muted float-md-right">
+                  August 2004 – May 2006
+                </small>
+              </h4>
+              <p>
+                Teaching assistant for Java and Operating Systems in C courses.
+                Responsibilities included: teaching classes, leading study
+                sessions, answering student questions and test and assignment
+                preparation and grading.
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      <br />
+
       <div className="row justify-content-md-center">
         <div className="col-md-2 mb-4 mb-md-0 justify-content-md-center">
-          <h1>
-            <span>Education</span>
-          </h1>
+          <h2>Education</h2>
         </div>
 
-        <div className="col-md-6 mb-3 mb-md-0">
+        <div className="col-md-6 mb-5 mb-md-0">
           <div className="row item">
-            <div className="col-md-12 mb-3 mb-md-0">
-              <h3>University of Life</h3>
-              <p className="info">
-                Master in Graphic Design
-                <span>&bull;</span>
-                <em className="date">April 2007</em>
-              </p>
-
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                M.S. Computer Science: NC State University
+                <small className="text-muted float-md-right">Fall 2007</small>
+              </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                felis eu pede mollis pretium.
+                Concentration in Aftificial Intelligence and Human Computer
+                Interaction.
               </p>
             </div>
           </div>
 
-          <div className="row item">
-            <div className="col-md-12 mb-3 mb-md-0">
-              <h3>School of Cool Designers</h3>
-              <p className="info">
-                B.A. Degree in Graphic Design
-                <span>&bull;</span>
-                <em className="date">March 2003</em>
-              </p>
+          <br />
 
+          <div className="row item">
+            <div className="col-md-12 mb-5 mb-md-0">
+              <h4>
+                B.S. Computer Science, B.A. Physics: University of North
+                Carolina at Wilmington
+                <small className="text-muted float-md-right">Spring 2004</small>
+              </h4>
               <p>
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
-                tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                Double major in Computer Science and Physics with a
+                concentration of scientific computing.
               </p>
             </div>
           </div>

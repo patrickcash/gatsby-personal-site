@@ -13,7 +13,7 @@ export default function Masthead() {
           </h2>
           <Scroll type="id" element="projects">
             <a href="#projects" className="btn btn-light">
-              Portfolio
+              Projects
             </a>
           </Scroll>
         </div>
